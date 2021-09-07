@@ -56,7 +56,7 @@ public class Shell
                     .build();
             System.setOut(CustomPrintStream.getPrintStream());
             System.setErr(CustomPrintStream.getPrintStream());
-            terminal.writer().println(getLogo());
+            System.out.println(getLogo());
             started = true;
             while (true)
             {
